@@ -3,8 +3,8 @@ import "./App.css";
 import Footer from "./components/footer/Footer";
 import OutPut from "./components/outPut/OutPut";
 import TheTopContainer from "./components/theTopContainer/TheTopContainer";
-import dark from "images/bg-desktop-dark.jpg"
-import light from "images/bg-desktop-light.jpg"
+import dark from "../public/images/bg-mobile-dark.jpg"
+import light from "../public/images/bg-mobile-light.jpg"
 function App() {
   const [togglePage, setTogglePage] = useState(true);
   const [inputValue, setInputValue] = useState("");
