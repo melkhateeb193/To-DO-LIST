@@ -1,0 +1,19 @@
+
+.result{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:  0 1.2rem;
+    color: hsl(233, 14%, 35%) ;
+}
+.Btn-clear{
+    background-color: transparent ;
+    cursor: pointer;
+    border: none;
+
+}
+
+.Btn-clear:hover{
+    color: hsl(220, 98%, 61%);
+
+}

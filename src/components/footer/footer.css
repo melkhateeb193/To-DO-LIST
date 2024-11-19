@@ -1,0 +1,28 @@
+.footerDark{
+    display: flex;
+    justify-content: space-around;
+    background-color: hsl(235, 24%, 19%);
+    margin-top: 1.2rem;
+    border-radius: 0.2rem;
+}
+
+.footerLight{
+    display: flex;
+    justify-content: space-around;
+    background-color:hsl(0, 0%, 98%);
+    margin-top: 1.2rem;
+    border-radius: 0.2rem;
+}
+
+
+
+.footerBtn{
+    background-color: transparent ;
+    border: none;
+    margin: 1rem;
+    cursor: pointer;
+    color: hsl(233, 14%, 35%) ;
+}
+.footerBtn:hover{
+    color: hsl(220, 98%, 61%);
+}
