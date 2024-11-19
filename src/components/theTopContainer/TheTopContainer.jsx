@@ -6,7 +6,7 @@ export default function TheTopContainer({handleTogglePage , togglePage}) {
     <div className="theTopContainer">
       <h1>TODO</h1>
       <img
-        src={togglePage ? "/icon-sun.svg" : "/icon-moon.svg"}
+        src={togglePage ? "images/icon-sun.svg" : "images/icon-moon.svg"}
         alt={togglePage ? "sun" : "moon"}
         onClick={handleTogglePage}
       />
