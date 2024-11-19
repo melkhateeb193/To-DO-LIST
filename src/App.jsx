@@ -3,7 +3,8 @@ import "./App.css";
 import Footer from "./components/footer/Footer";
 import OutPut from "./components/outPut/OutPut";
 import TheTopContainer from "./components/theTopContainer/TheTopContainer";
-
+import dark from "images/bg-desktop-dark.jpg"
+import light from "images/bg-desktop-light.jpg"
 function App() {
   const [togglePage, setTogglePage] = useState(true);
   const [inputValue, setInputValue] = useState("");
@@ -54,8 +55,8 @@ function App() {
       className={togglePage ? "mainDark" : "mainLight"}
       style={{
         backgroundImage: togglePage
-          ? "url(images/bg-desktop-dark.jpg)"
-          : "url(images/bg-desktop-light.jpg)",
+          ? `url(${dark})`
+          : `url(${light})`,
       }}
     >
       <div className="inputOutputContainer">
