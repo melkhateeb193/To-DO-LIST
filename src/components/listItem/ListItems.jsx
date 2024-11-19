@@ -9,7 +9,7 @@ export default function ListItems({ toDoArr, handleDelete, handleClick, lineThro
           <li key={`${task}${i}`} onClick={() => handleClick(i)}>
             <span className={lineThrough[i] ? "imgSpan" : "imgSpanToggle"}>
               {lineThrough[i] ? (
-                <img className="check" src="/icon-check.svg" alt="check" />
+                <img className="check" src="/images/icon-check.svg" alt="check" />
               ) : (
                 ""
               )}
@@ -17,7 +17,7 @@ export default function ListItems({ toDoArr, handleDelete, handleClick, lineThro
             <span className="spanLi">
               <p className={lineThrough[i] ? "lineThrow" : ""}>{task}</p>
               <img
-                src="/icon-cross.svg"
+                src="/images/icon-cross.svg"
                 alt="cross"
                 className="delete"
                 onClick={() => handleDelete(i)}

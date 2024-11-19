@@ -54,8 +54,8 @@ function App() {
       className={togglePage ? "mainDark" : "mainLight"}
       style={{
         backgroundImage: togglePage
-          ? "url(/bg-desktop-dark.jpg)"
-          : "url(/bg-desktop-light.jpg)",
+          ? "url(/images/bg-desktop-dark.jpg)"
+          : "url(/images/bg-desktop-light.jpg)",
       }}
     >
       <div className="inputOutputContainer">
