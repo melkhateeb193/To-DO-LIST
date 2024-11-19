@@ -1,5 +1,5 @@
 {
-  "homepage": "https://github.com/melkhateeb193/To-DO-LIST",
+  "homepage": "https://github.com/melkhateeb193/To-DO-LIST/",
   "name": "to-do-list",
   "private": true,
   "version": "0.0.0",
@@ -9,7 +9,8 @@
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "deploy": "gh-pages -d build"
   },
   "dependencies": {
     "prop-types": "^15.8.1",
